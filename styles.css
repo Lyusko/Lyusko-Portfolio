@@ -379,6 +379,7 @@ i {
 
 .project-card img {
   width: 100%;
+  filter: brightness(1.2);
 }
 
 .project-card:hover {
