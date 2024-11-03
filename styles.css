@@ -9,7 +9,7 @@
 :root {
   --primary-color: 0, 93, 225;
   --secondary-color: ;
-  --text-color: ;
+  --text-color: #fff;
   --accent-color: #a6a6a6;
   --bg-color: #161616;
   --bg-secondary-color: #222222;
@@ -22,6 +22,7 @@ img {
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 @keyframes scaleup {
@@ -109,7 +110,7 @@ html {
 }
 
 .links a {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
@@ -144,7 +145,7 @@ html {
   justify-content: center;
   align-items: center;
   background-color: var(--bg-color);
-  color: #fff;
+  color: var(--text-color);
   text-align: center;
 }
 
@@ -196,7 +197,7 @@ html {
 }
 
 #location {
-  color: #fff;
+  color: var(--text-color);
   width: unset;
   display: flex;
   gap: 0.25rem;
@@ -262,6 +263,10 @@ i {
 .card:nth-child(3) h2 {
   font-size: 44px;
   color: rgb(var(--primary-color));
+}
+
+.card p {
+  color: var(--text-color);
 }
 
 /* .card:nth-child(1),
@@ -330,7 +335,7 @@ i {
   border: 1px solid var(--accent-color);
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  color: #fff;
+  color: var(--text-color);
   font-weight: 600;
   text-wrap: nowrap;
 }
@@ -348,7 +353,7 @@ i {
   text-align: center;
   padding-bottom: 2.5rem;
 
-  color: #fff;
+  color: var(--text-color);
 }
 
 .section-title h1 {
@@ -364,7 +369,7 @@ i {
 
 .project-card {
   background-color: rgb(var(--primary-color));
-  color: #fff;
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -409,7 +414,7 @@ i {
 }
 
 .project-links a {
-  color: #fff;
+  color: var(--text-color);
   background-color: #20202063;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -427,7 +432,7 @@ i {
 }
 
 .project-links i {
-  color: #fff;
+  color: var(--text-color);
 }
 
 .footer {
@@ -441,7 +446,7 @@ i {
 }
 
 .footer-container {
-  color: #fff;
+  color: var(--text-color);
 }
 
 .footer-container:nth-child(2) {
