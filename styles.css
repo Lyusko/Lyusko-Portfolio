@@ -526,6 +526,11 @@ i {
     font-size: 28px;
   }
 
+
+.footer-container:nth-child(1) {
+  text-align: center;
+}
+
   .solid,
   .interest {
     text-align: center;
