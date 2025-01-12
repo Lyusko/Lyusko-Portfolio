@@ -34,20 +34,21 @@
     <button class="backToTop" aria-label="Back To Top Navigation Button">
       <span><i class="fa-solid fa-arrow-up"></i></span>
     </button>
-    <div class="bleed">
-      <header class="navbar utility_container">
-        <nav>
-          <!-- <h1 class="logo">LBDesigns</h1> -->
-          <ul class="links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-          </ul>
-        </nav>
-      </header>
 
-      <main>
-        <section class="hero utility_container">
+    <header class="grid-main navbar">
+      <nav class="grid-content navbar-content">
+        <!-- <h1 class="logo">LBDesigns</h1> -->
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="grid-main">
+        <section class="grid-content hero">
           <h1>Aspiring <span class="colored-word">Web Developer</span>,</h1>
           <h2>learning <span class="underline-word">new things.</span></h2>
           <p>
@@ -63,13 +64,15 @@
             <i class="fa-solid fa-2xl fa-arrow-down"></i>
           </div>
         </section>
+      </div>
 
-        <section id="about" class="about utility_container">
+      <div class="grid-main about-section">
+        <section id="about" class="grid-content about">
           <div class="section-title">
             <h1>About Me</h1>
             <p>Some personal info about me.</p>
           </div>
-          <div class="grid-about utility_container">
+          <div class="grid-about">
             <div class="card">
               <h2>Passion</h2>
               <p>
@@ -129,8 +132,10 @@
             </div>
           </div>
         </section>
+      </div>
 
-        <section id="projects" class="projects utility_container">
+      <div class="grid-main">
+        <section id="projects" class="grid-content projects">
           <div class="section-title">
             <h1>Projects</h1>
             <p>Some personal projects i've been working on...</p>
@@ -180,36 +185,45 @@
             </div>
           </div>
         </section>
-      </main>
-    </div>
+      </div>
+    </main>
 
-    <div class="bleed">
-      <footer class="footer utility_container">
-        <div class="footer-container">
-          <h1>Lyudmil Borisov</h1>
-          <p>
-            Personal portfolio made to serve purpose about personal projects and
-            skills.
-          </p>
-          <p>&copy; Lyudmil Borisov 2024. All rights Reserved.</p>
-        </div>
-        <div class="footer-container">
-          <h2>Follow me on my Socials</h2>
-          <p>to keep in touch with me</p>
+    <footer class="grid-main footer">
+      <nav class="grid-content footer-content">
+        <div class="footer-content-main">
+          <div class="left-footer">
+            <div class="logo">
+              <p>Lyudmil Borisov</p>
+              <p>
+                Personal portfolio made to serve purpose about personal projects
+                and skills.
+              </p>
+            </div>
+          </div>
 
-          <div class="footer-links">
-            <a
-              href="https://www.linkedin.com/in/lyudmil-borisov"
-              aria-label="LinkedIn"
-              ><i class="fa-brands fa-2xl fa-linkedin"></i
-            ></a>
-            <a href="https://www.github.com/lyusko" aria-label="Github">
-              <i class="fa-brands fa-2xl fa-square-github"></i
-            ></a>
+          <div class="footer-right">
+            <div class="right-text">
+              <h2>Follow me on my Socials</h2>
+              <p>to keep in touch with me</p>
+            </div>
+
+            <div class="footer-links">
+              <a
+                href="https://www.linkedin.com/in/lyudmil-borisov"
+                aria-label="LinkedIn"
+                ><i class="fa-brands fa-2xl fa-linkedin"></i
+              ></a>
+              <a href="https://www.github.com/lyusko" aria-label="Github">
+                <i class="fa-brands fa-2xl fa-square-github"></i
+              ></a>
+            </div>
           </div>
         </div>
-      </footer>
-    </div>
+        <div class="copyright">
+          <p>Lyudmil Borisov &copy; 2025. All Rights Reserved.</p>
+        </div>
+      </nav>
+    </footer>
 
     <script src="script.js"></script>
   </body>
