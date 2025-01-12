@@ -8,6 +8,7 @@
 
 :root {
   --primary-color: 0, 93, 225;
+
   --secondary-color: ;
   --text-color: #fff;
   --accent-color: #a6a6a6;
@@ -541,6 +542,8 @@ i {
     flex-direction: column;
     gap: 5rem;
     padding: 1rem 0;
+    align-items: center;
+    text-align: center;
   }
 
   .solid,
