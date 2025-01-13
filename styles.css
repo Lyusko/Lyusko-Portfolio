@@ -526,6 +526,11 @@ i {
 
 /* xs */
 @media (max-width: 475px) {
+  
+  .hero {
+    padding: 2rem 0;
+    }
+  
   .card:nth-child(1) h2,
   .card:nth-child(2) h2,
   .card:nth-child(3) h2 {
