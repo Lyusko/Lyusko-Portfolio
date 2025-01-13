@@ -528,8 +528,12 @@ i {
 @media (max-width: 475px) {
   
   .hero {
-    padding: 2rem 0;
+    padding: 5rem 0;
     }
+    
+    .hero h1 {
+      font-size: 24px;
+      }
   
   .card:nth-child(1) h2,
   .card:nth-child(2) h2,
